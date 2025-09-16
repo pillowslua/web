@@ -1,8 +1,8 @@
 'use client'
 
-import { useAuth } from '@/contexts/AuthContext'
-import Login from '@/components/Login'
-import Dashboard from '@/components/Dashboard'
+import { useAuth } from '/contexts/AuthContext'
+import Login from '/components/Login'
+import Dashboard from '/components/Dashboard'
 
 export default function Page(): JSX.Element {
   const { user, profile, loading } = useAuth()
